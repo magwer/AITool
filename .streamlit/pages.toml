@@ -1,0 +1,9 @@
+[[pages]]
+path = "ai_scene/ai_scene.py"
+name = "情景演绎"
+icon = "🎬"
+
+[[pages]]
+path = "placeholder/placeholder.py"
+name = "占位"
+icon = "🎬"
