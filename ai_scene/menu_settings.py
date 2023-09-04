@@ -2,11 +2,11 @@ import streamlit as st
 
 
 def display():
-    st.session_state.openai_base = st.text_area(
+    st.session_state.openai_base = st.text_input(
         "OpenAI Base", st.session_state.openai_base
     )
 
-    st.session_state.openai_key = st.text_area(
+    st.session_state.openai_key = st.text_input(
         "OpenAI Key", st.session_state.openai_key
     )
     st.session_state.model = st.selectbox(
